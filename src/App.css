@@ -1,0 +1,92 @@
+body {
+    background: linear-gradient(to right, #5fff74, #548de2);
+    animation: gradient 5s ease infinite;
+    height: 100vh;
+    border: 5px solid #000;
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+}
+
+.main-header {
+    color: #fff;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.main-header ul {
+    list-style: none;
+    width: 100%;
+    margin: 25px 0;
+    padding: 5px;
+    /* background: linear-gradient(to right, #5fff74, #05e977); */
+}
+
+.main-header ul li {
+    display: inline;
+    margin-right: 10px;
+    display: inline-block;
+    color: #fff;
+    font-size: 1.2em;
+
+}
+
+
+.Customer-table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+    background: #fff;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+table tr {
+    border-radius: 15px;
+    border: 1px solid #d82323;
+}
+
+table th {
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+table td {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+/* login page css */
+
+#loginForm {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+    background: #3df0e7;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+#login-btn {
+    padding: 15x;
+    width: 50%;
+    display: block;
+}
+
+#miniRow{
+    text-align: center;
+    font-size: .7em;
+    text-decoration: none;
+    color: #162cf7;
+}
