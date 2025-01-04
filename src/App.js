@@ -14,15 +14,15 @@ import SignupPage from './Authenticate/SignupPage';
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path='/' element={<RootLayout />} >
-        <Route index element={<DairyFarm />} />
-        <Route path='customers' element={<Customer />} />
-        <Route path='addCustomer' element={<NewCustomers />} />
-        <Route path='updateCustomer/:id' element={<UpdateCustomer />} />
-        <Route path='orders' element={<Orders />} />
-        <Route path='products' element={<Products />} />
-        <Route path='about' element={<About />} />
-        <Route path='login' element={<LoginPage />} />
+      <Route path='/dairy-product-management' element={<RootLayout />} >
+        <Route index element={<DairyFarm />} />/dairy-product-management/
+        <Route path='/dairy-product-management/customers' element={<Customer />} />
+        <Route path='/dairy-product-management/addCustomer' element={<NewCustomers />} />
+        <Route path='/dairy-product-management/updateCustomer/:id' element={<UpdateCustomer />} />
+        <Route path='/dairy-product-management/orders' element={<Orders />} />
+        <Route path='/dairy-product-management/products' element={<Products />} />
+        <Route path='/dairy-product-management/about' element={<About />} />
+        <Route path='/dairy-product-management/login' element={<LoginPage />} />
         <Route path='register' element={<SignupPage />} />
       </Route>
     )
